@@ -23,6 +23,13 @@
     font-size: 60px;
 }
 
+.sidenav__img > img {
+    height: 300px;
+    /* margin-left: 21px; */
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
 .sidenav__items{
     padding: 0 20px;
 }
@@ -70,3 +77,28 @@
     display: flex;
     align-items: center;
 }
+
+.sidenav__undertext{
+    color: #fff;
+    padding-left: 25px;
+    height: 30px;
+    font-size: 21px;
+}
+
+.underline{
+    padding: 5px 0 8px;
+    position: relative;
+  }
+  
+  .underline::before {
+    content: "";
+    position: absolute;
+    left: 70%;
+    bottom: 10px;
+    width: 190px;
+    height: 10px;
+    transform: skew(-12deg) translateX(-50%);
+    background: #42bd1c;
+    z-index: -1;
+  }
+     

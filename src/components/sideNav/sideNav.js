@@ -1,7 +1,7 @@
 import React from 'react';
 import {SideNavData} from './sideNavData';
 // import {Link} from 'react-router-dom'
-import '../../assets/css/home-page.css';
+import logo from '../../assets/images/81783445.png'
 import '../../assets/css/sideNav.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
@@ -18,10 +18,9 @@ export const SideNav = () => {
                 <div className="sidenav__logo">
                     <p>Tyler Ross</p>
                 </div>
-                    {/* <div className="underline">
-                        <h4 >A passionate full stack developer</h4>
-                    </div>
-                    <h4>Nav bar here</h4> */}
+                {/* <div className="underline">
+                    <p className="sidenav__undertext">A passionate full stack developer</p>
+                </div> */}
                 {
                     SideNavData.map((item, index) => (
                         <li key={index} className={item.cName}>
@@ -34,6 +33,9 @@ export const SideNav = () => {
                         </li>
                     ))
                 }
+                <div className="sidenav__img">
+                    <img src={logo} alt="cool pixel are"/>
+                </div>
             </div>
         </>
     )
