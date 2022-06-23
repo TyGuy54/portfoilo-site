@@ -16,11 +16,10 @@ export const SideNav = () => {
         <>  
             <div className="sidenav">
                 <div className="sidenav__logo">
-                    <p>Tyler Ross</p>
+                <div className="sidenav__img">
+                    <img src={logo} alt="cool pixel are"/>
                 </div>
-                {/* <div className="underline">
-                    <p className="sidenav__undertext">A passionate full stack developer</p>
-                </div> */}
+                </div>
                 {
                     SideNavData.map((item, index) => (
                         <li key={index} className={item.cName}>
@@ -33,9 +32,6 @@ export const SideNav = () => {
                         </li>
                     ))
                 }
-                <div className="sidenav__img">
-                    <img src={logo} alt="cool pixel are"/>
-                </div>
             </div>
         </>
     )
