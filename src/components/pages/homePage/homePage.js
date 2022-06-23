@@ -19,8 +19,8 @@ export const HomePage = () =>{
     //   });
 
     const homeTitle = useSpring({
-        to: { opacity: 1 },
-        from: { opacity: 0 },
+        to: { marginLeft: -10 },
+        from: { marginLeft: -1000 },
         reset: false,
         delay: 400,
         config: config.molasses,
