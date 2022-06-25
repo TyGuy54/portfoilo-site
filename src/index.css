@@ -13,3 +13,8 @@
                 cursor-pointer;
     }
 }
+
+@font-face {
+    font-family: "Invasion";
+    src: url("./assets/Fonts/Invasion2000.woff2");
+}

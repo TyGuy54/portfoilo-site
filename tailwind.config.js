@@ -16,6 +16,9 @@ module.exports = {
         300: '#e3e5e8',
         200: '#3b3d3f',
         100: '#f2f3f5',
+      },
+      fontFamily: {
+        invasion: ['Invasion']
       }
     },
   },

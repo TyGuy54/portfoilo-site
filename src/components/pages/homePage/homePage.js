@@ -7,7 +7,7 @@ import '../../../assets/css/homeSection.css';
 export const HomePage = () =>{
 
     const homeTitle = useSpring({
-        to: { marginLeft: 700 },
+        to: { marginLeft: 635 },
         from: { marginLeft: -1000 },
         reset: false,
         delay: 400,
@@ -28,7 +28,7 @@ export const HomePage = () =>{
                 <div className='flex'>
                     <SideNav/>
                 </div>
-                <div>
+                <div className='font-invasion'>
                     <animated.div className='homeH1' style={homeTitle}>Tyler Ross</animated.div>
                     <animated.div className='homeP' style={homeContent}>A passionate programmer</animated.div>
                     <animated.div className='homeP' style={homeContent}>I program good</animated.div>
