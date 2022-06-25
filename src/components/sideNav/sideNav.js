@@ -1,8 +1,8 @@
 import React from 'react';
 import {BsPlus, BsFileEarmarkPersonFill} from 'react-icons/bs';
-import {AiFillHome, AiFillGithub} from 'react-icons/ai';
+import {AiFillHome, AiFillGithub, AiOutlineUserAdd} from 'react-icons/ai';
 // import {Link} from 'react-router-dom'
-import logo from '../../assets/images/81783445.png'
+
 
 const SideBarIcon = ({icon, title}) => (
     <>
@@ -21,6 +21,7 @@ export const SideNav = () => {
                                 
             <SideBarIcon icon={<AiFillHome size={"28"}/>} title="Home"/>
             <SideBarIcon icon={<BsFileEarmarkPersonFill size={"28"}/>} title="About"/>
+            <SideBarIcon icon={<AiOutlineUserAdd size={"28"}/>} title="Interests"/>
             <SideBarIcon icon={<AiFillGithub size={"28"}/>} title="Projects"/>
             {/* <SideBarIcon icon={<FaPoo size={"28"}/>}/> */}
           </div>

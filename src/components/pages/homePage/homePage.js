@@ -1,7 +1,7 @@
 import {useState} from 'react';
 import {SideNav} from '../../sideNav/sideNav';
 import { useSpring, animated, config } from 'react-spring'
-import '../../../assets/css/homeSection.css';
+import '../../../assets/css/util.css';
 
 
 export const HomePage = () =>{
