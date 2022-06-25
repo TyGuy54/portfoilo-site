@@ -11,7 +11,7 @@
 }
 .homeContent{
     z-index: 3;
-    max-width: 1200px;
+    /* max-width: 1200px; */
     position: absolute;
     display: block;
     margin: auto;
@@ -33,6 +33,6 @@
     color: white;
     font-size: 30px;
     text-align: center;
-    max-width: 670px;
+    /* max-width: 670px; */
     text-shadow: 2px 3px 3px black;
 }

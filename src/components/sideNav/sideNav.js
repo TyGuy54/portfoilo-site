@@ -1,38 +1,29 @@
 import React from 'react';
-import {SideNavData} from './sideNavData';
+import {BsPlus, BsFillLightningFill, BsGearFill} from 'react-icons/bs';
+import {AiFillHome} from 'react-icons/ai';
 // import {Link} from 'react-router-dom'
 import logo from '../../assets/images/81783445.png'
-import '../../assets/css/sideNav.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {
-    Container,
-    Row,
-    Col,
-} from 'react-bootstrap';
 
+const SideBarIcon = ({icon, title}) => (
+    <>
+        <div className="sidenav-icon">
+            {icon} {title}
+        </div>
+    </>
+)
 
 export const SideNav = () => {
     return (
         <>  
-            <div className="sidenav">
-                <div className="sidenav__logo">
-                <div className="sidenav__img">
-                    <img src={logo} alt="cool pixel are"/>
-                </div>
-                </div>
-                {
-                    SideNavData.map((item, index) => (
-                        <li key={index} className={item.cName}>
-                            {/* <Link to={item.path}>
-                                <span>{item.title}</span>
-                            </Link> */}
-                            <a>
-                                <span>{item.title}</span>
-                            </a>
-                        </li>
-                    ))
-                }
-            </div>
+          <div className="fixed top-0 left-0 h-screen w-48 m-0
+                            flex flex-col
+                            bg-gray-900 text-white shadow-lg">
+                                
+            <SideBarIcon icon={<AiFillHome size={"28"}/>} title="Home"/>
+            <SideBarIcon icon={<BsPlus size={"28"}/>} title="About"/>
+            <SideBarIcon icon={<BsFillLightningFill size={"28"}/>} title="Projects"/>
+            {/* <SideBarIcon icon={<FaPoo size={"28"}/>}/> */}
+          </div>
         </>
     )
 }
