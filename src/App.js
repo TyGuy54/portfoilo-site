@@ -10,8 +10,8 @@ function App() {
     <>
       <HomePage/>
       <AboutPage/>
-      <ProjectPage/>
       <InterestPage/>
+      <ProjectPage/>
     </>
   );
 }
