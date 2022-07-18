@@ -8,4 +8,5 @@ The one downside is that the HTML can get really bloaded and look really ugly. B
 
 
 # Planned Release
-I will be releasing the site on 7/16/2022. Once released there will be a link providere here - 
+
+Once released there will be a link providere here - 
