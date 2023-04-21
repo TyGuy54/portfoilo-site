@@ -6,7 +6,7 @@ import {AiFillHome, AiFillGithub, AiOutlineUserAdd} from 'react-icons/ai';
 
 const SideBarIcon = ({icon, title}) => (
     <>
-        <div className="sidenav-icon">
+        <div className="space-x-10 sidenav-icon">
             {icon} {title}
         </div>
     </>

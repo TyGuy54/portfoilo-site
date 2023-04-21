@@ -1,13 +1,11 @@
-import {useState} from 'react';
 import logo from '../../../assets/images/81783445.png'
 import '../../../assets/css/util.css';
 
 export const AboutPage = () => {
     return (
         <>
-          <div className='h-screen bg-gray-700'>
-            <div className='font-invasion text-[90px] 
-                        text-white text-center'>
+          <div className='h-[170vh] bg-gray-700'>
+            <div className='font-invasion text-[90px] text-white text-center'>
               <h1 className='text-shadow text-left pl-64'>About</h1>
               <div className='flex'>
                   <div className='container text-[30px]'>
@@ -21,7 +19,7 @@ export const AboutPage = () => {
                       I've made games useing GameMaker Studio, whitch is a game engine
                       that uses its own language dirivitave of C/C++ and javascript.
                       It wouldnt until I was 18 where I started takeing programming more
-                      seriously, I started learning Python and javascript and moved away from makeing games to expirimenting with Web Development and creating other type of software.
+                      seriously, I started learning Python and javascript and moved away from makeing games to focus on Web Development and creating other type of software.
                     </p>
                     <p className='text-shadow text-left pl-64 pt-10'>
                       I love Programming more than anything and im very happy that it has become something more of a hobby, and it's something I can do professionally.
