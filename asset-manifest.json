@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/portfoilo-site/static/css/main.6a589ec6.css",
-    "main.js": "/portfoilo-site/static/js/main.74bea7de.js",
-    "static/media/IMG_4441.jpg": "/portfoilo-site/static/media/IMG_4441.574b1a5aaa1611145da3.jpg",
-    "static/media/Invasion2000.woff2": "/portfoilo-site/static/media/Invasion2000.2f5ea8274f38f3de95f6.woff2",
-    "index.html": "/portfoilo-site/index.html",
-    "main.6a589ec6.css.map": "/portfoilo-site/static/css/main.6a589ec6.css.map",
-    "main.74bea7de.js.map": "/portfoilo-site/static/js/main.74bea7de.js.map"
+    "main.css": "/static/css/main.1f347ec5.css",
+    "main.js": "/static/js/main.7fbe6dd3.js",
+    "static/media/IMG_4441.jpg": "/static/media/IMG_4441.574b1a5aaa1611145da3.jpg",
+    "static/media/Invasion2000.woff2": "/static/media/Invasion2000.2f5ea8274f38f3de95f6.woff2",
+    "index.html": "/index.html",
+    "main.1f347ec5.css.map": "/static/css/main.1f347ec5.css.map",
+    "main.7fbe6dd3.js.map": "/static/js/main.7fbe6dd3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a589ec6.css",
-    "static/js/main.74bea7de.js"
+    "static/css/main.1f347ec5.css",
+    "static/js/main.7fbe6dd3.js"
   ]
 }
