@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/static/css/main.1f347ec5.css",
-    "main.js": "/static/js/main.7fbe6dd3.js",
+    "main.js": "/static/js/main.b50a5b5b.js",
     "static/media/IMG_4441.jpg": "/static/media/IMG_4441.574b1a5aaa1611145da3.jpg",
     "static/media/Invasion2000.woff2": "/static/media/Invasion2000.2f5ea8274f38f3de95f6.woff2",
     "index.html": "/index.html",
     "main.1f347ec5.css.map": "/static/css/main.1f347ec5.css.map",
-    "main.7fbe6dd3.js.map": "/static/js/main.7fbe6dd3.js.map"
+    "main.b50a5b5b.js.map": "/static/js/main.b50a5b5b.js.map"
   },
   "entrypoints": [
     "static/css/main.1f347ec5.css",
-    "static/js/main.7fbe6dd3.js"
+    "static/js/main.b50a5b5b.js"
   ]
 }
