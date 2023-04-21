@@ -2,7 +2,7 @@ import '../../../assets/css/util.css';
 
 export const ProjectPage = () => {
     return (
-        <div className='h-screen bg-gray-800'>
+        <div className='h-screen bg-gray-800' id='projects'>
             <div className='font-invasion text-[90px] 
                         text-white text-center'>
                 <h1 className='text-shadow text-left pl-64'>Projects</h1>

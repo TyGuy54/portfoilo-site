@@ -24,7 +24,7 @@ export const HomePage = () =>{
 
     return (
         <>
-            <div className='h-screen bg-gray-800'>
+            <div className='h-screen bg-gray-800' id='home'>
                 <div className='flex'>
                     <SideNav/>
                 </div>
