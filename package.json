@@ -2,11 +2,13 @@
   "name": "portfoilo-site",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://Tyguy54.github.io/portfoilo-site",
   "dependencies": {
     "@craco/craco": "^6.4.3",
     "bootstrap": "^5.1.3",
     "cra-template": "1.2.0",
     "craco": "^0.0.3",
+    "gh-pages": "^5.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.4.0",
     "react-dom": "^18.2.0",
@@ -17,6 +19,8 @@
     "react-spring": "^9.4.5"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "craco start",
     "build": "craco build",
     "test": "craco test",
