@@ -2,7 +2,7 @@
   "name": "portfoilo-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Tyguy54.github.io/portfoilo-site",
+  "homepage": "https://tyguy54.github.io",
   "dependencies": {
     "@craco/craco": "^6.4.3",
     "bootstrap": "^5.1.3",
