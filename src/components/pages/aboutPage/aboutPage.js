@@ -1,10 +1,10 @@
-import logo from '../../../assets/images/81783445.png'
+import logo from '../../../assets/images/IMG_4441.jpg'
 import '../../../assets/css/util.css';
 
 export const AboutPage = () => {
     return (
         <>
-          <div className='h-[170vh] bg-gray-700'>
+          <div className='h-[170vh] bg-gray-700' id='about'>
             <div className='font-invasion text-[90px] text-white text-center'>
               <h1 className='text-shadow text-left pl-64'>About</h1>
               <div className='flex'>
