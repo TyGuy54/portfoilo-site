@@ -1,8 +1,7 @@
 import React from 'react';
 import {Link} from 'react-scroll';
-import {BsPlus, BsFileEarmarkPersonFill} from 'react-icons/bs';
+import {BsFileEarmarkPersonFill} from 'react-icons/bs';
 import {AiFillHome, AiFillGithub, AiOutlineUserAdd} from 'react-icons/ai';
-// import {Link} from 'react-router-dom'
 
 
 const SideBarIcon = ({icon, title}) => (
@@ -12,12 +11,6 @@ const SideBarIcon = ({icon, title}) => (
         </div>
     </>
 )
-
-// const print = (e) => {
-//     e.preventDefault();
-//     console.log("Clicked here")
-// }
-
 
 export const SideNav = () => {
     return (
@@ -32,11 +25,9 @@ export const SideNav = () => {
             <Link to='about' spy={true} smooth={true} offset={50} duration={500}>
                 <SideBarIcon icon={<BsFileEarmarkPersonFill size={"28"}/>} title="About"/>
             </Link>
-            {/* <SideBarIcon icon={<AiOutlineUserAdd size={"28"}/>} title="Interests"/> */}
             <Link to='projects' spy={true} smooth={true} offset={50} duration={500}>
                 <SideBarIcon icon={<AiFillGithub size={"28"}/>} title="Projects"/>
             </Link>
-            {/* <SideBarIcon icon={<FaPoo size={"28"}/>}/> */}
           </div>
         </>
     )

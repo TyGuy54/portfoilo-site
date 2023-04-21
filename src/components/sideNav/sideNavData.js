@@ -1,4 +1,3 @@
-import React from "react";
 import '../../assets/css/sideNav.css'
 
 export const SideNavData = [
