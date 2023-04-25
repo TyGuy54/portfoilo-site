@@ -9,4 +9,4 @@ The one downside is that the HTML can get really bloaded and look really ugly. B
 
 # Planned Release
 
-Once released there will be a link providere here - 
+Once released there will be a link providere here -  https://tyguy54.github.io/porfolio-site
