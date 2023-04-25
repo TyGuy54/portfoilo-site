@@ -17,6 +17,12 @@ export const ProjectPage = () => {
                         <p className='text-shadow text-left pl-64 pt-10 text-blue-600'>
                             <a href='https://github.com/TyGuy54'>Click here if you would like to view any of my other projects on Github.</a>
                         </p>
+                        <p className='text-shadow text-left pl-64 pt-10'>
+                            Like what you see? 
+                        </p>
+                        <p className='text-shadow text-left pl-64'>
+                            you can contact here at TylerRoss107@gmail.com
+                        </p>
                     </div>
                 </div>
             </div>
